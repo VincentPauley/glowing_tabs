@@ -1,3 +1,22 @@
-#trace {
-  color: red;
+#tabWrapper {
+  width: 400px;
+  margin: 40px;
+  font-family: arial;
+}
+#tabWrapper > label {
+  display: block;
+  border-bottom: 2px solid #404040;
+  padding: 16px;
+  background-color: #303030;
+  color: #B8B8B8;
+  -webkit-transition: background-color .2s;
+  transition: background-color .2s;
+}
+#tabWrapper > label:hover {
+  background-color: #EEC900;
+  border-bottom: 2px solid yellow;
+  color: #8B6914;
+}
+input[type='radio'] {
+  display: none;
 }
