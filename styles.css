@@ -12,25 +12,18 @@
   -webkit-transition: padding .5s;
   transition: padding .5s;
 }
-/*
-#tabWrapper > label:hover {
-  border-bottom: 2px solid #B8B8B8;
-  padding: 16px 30px;
-  background-color: #BBFFFF;
-  color: black;
-}*/
 #tabWrapper > .selected {
-  border-bottom: 2px solid #00CDCD;
+  border-bottom: 2px solid #FFFF00;
   padding: 16px 30px;
-  background-color: #00FFFF;
+  background-color: #FFE303;
   color: black;
   font-weight: bold;
 }
 #tabWrapper > .hovering {
-  border-bottom: 2px solid #FFFFFF;
-  background-color: #BFEFFF;
+  border-bottom: 2px solid #FFE303;
+  background-color: #FFFF00;
   padding: 16px 30px;
-  color: #2F4F4F;
+  color: #2E2E2E;
 }
 input[type=radio] {
   display: none;
