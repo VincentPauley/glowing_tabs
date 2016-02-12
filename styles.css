@@ -1,22 +1,20 @@
-#tabWrapper {
-  width: 400px;
-  margin: 40px;
+body {
+  background-color: #FFFFFF;
   font-family: arial;
+  font-size: 14px;
 }
-#tabWrapper > label {
+#glowTabs {
+  max-width: 300px;
+}
+#glowTabs > label {
   display: block;
-  border-bottom: 2px solid #404040;
-  padding: 16px;
+  border-bottom: 1px solid #474747;
   background-color: #303030;
-  color: #B8B8B8;
-  -webkit-transition: background-color .2s;
-  transition: background-color .2s;
+  padding: 10px;
 }
-#tabWrapper > label:hover {
-  background-color: #EEC900;
-  border-bottom: 2px solid yellow;
-  color: #8B6914;
+#glowTabs > label > input[type=radio] {
+
 }
-input[type='radio'] {
-  display: none;
+#glowTabs > label > span {
+  transition: margin-left .15s;
 }
